@@ -1,4 +1,4 @@
 let whiteboard = require("./index.js");
-whiteboard.log("John", "Programming").then(response => {
+whiteboard.userBoard("@odkaodf").then(response => {
     console.log(response);
 });
