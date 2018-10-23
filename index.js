@@ -14,7 +14,7 @@ module.exports = {
                 }
             };
             request(clientServerOptions, function (error, response) {
-                resolve(response.body);
+                resolve(JSON.parse(response.body));
                 return;
             });
         });
